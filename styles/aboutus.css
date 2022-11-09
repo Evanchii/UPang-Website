@@ -1,0 +1,23 @@
+body {
+	background-image: url(../assets/background_au.jpg);
+	background-position: 0% 20%;
+	background-attachment: fixed;
+}
+
+.body img{
+	width: 100%;
+}
+
+button {
+	border: solid 0.5px;
+	border-color: black;
+	font-family: Slick;
+	color: white;
+	background-color: rgba(0, 0, 0, 0);
+	transition: background-color 0.5s ease-in-out;
+	font-size: 150%;
+}
+
+button:hover {
+	background-color: black;
+}

@@ -1,0 +1,73 @@
+body {
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+@font-face {
+  font-family: Slick;
+  src: url(../assets/slick.ttf);
+	}
+
+.header {
+	color: white;
+	font-family: Slick;
+}
+
+.nav {
+	background-color: black;
+	margin-left: -10px;
+	margin-right: -7.8px;
+	color: white;
+	font-family: Slick;
+	padding: 5px;
+	padding-bottom: 1em;
+}
+
+hr {
+	width: 25%;
+	background-color: black;
+}
+
+.container {
+	margin-right: 0px;
+	height: 40px;
+	overflow: hidden;
+}
+
+.container img {
+	transition: transform .5s ease-in-out;
+}
+
+.container img:hover {
+	transform: translate3d(0px, -45px, 0px);
+}
+
+
+.body {
+	background-color: rgba(256, 256, 256, 50%);
+	margin-left: -1em;
+	margin-right: -7.8px;
+	padding-top: 1em;
+	padding-left: 2em;
+	padding-right: 1em;
+	padding-bottom: 2em;
+	font-family: Slick;
+}
+
+.footer {
+	position: relative;
+	margin-left: -10px;
+	margin-right: -7.8px;
+	padding-left: 3em; 
+	padding-top: 1em;
+	padding-right: 2.5em;
+	font-family: Slick;
+	color: white;
+	border: solid 1px;
+	border-color: black;
+	border-top-color: black;
+	border-top-width: 2px;
+	background-color: black;
+	padding-bottom: 2em;
+	bottom: 10px;
+}

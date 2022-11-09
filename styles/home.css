@@ -1,0 +1,99 @@
+body {
+	background-image: url(../assets/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+
+}
+
+@font-face {
+  font-family: Slick;
+  src: url(../assets/slick.ttf);
+}
+
+h3 {
+	font-family: Slick;
+}
+
+hr {
+	width: 25%;
+}
+
+.nav {
+	margin-left: -10px;
+	margin-right: -7.8px;
+	margin-top: 2.5em;
+	background-color: black;
+}
+
+#test img.bottom {
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { margin-top: -2em;opacity: 0; }
+    to   {opacity: 1; }
+}
+
+#test img.top {
+	animation: fadeinlate 1s;
+}
+
+@keyframes fadeinlate {
+0% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+.header {
+	font-family: Slick;
+	color: #fff;
+	padding-top: 1em;
+}
+ 
+.body {
+	background-color: rgba(256, 256, 256, 0.7);
+	position: relative;
+	bottom: -1vw;
+	margin-left: -10px;
+	margin-right: -7.8px;
+	padding-top: .5em;
+	padding-bottom: 1em;
+}
+
+.top {
+	width: 9.8%;
+}
+
+.bottom {
+	position: absolute;
+	width: 9.8%;
+	opacity: 1;
+	transition: opacity 0.5s;
+}
+
+.bottom:hover {
+	opacity: 0;
+}
+
+.footer {
+	bottom: -1vw;
+	vertical-align: center;
+	position: relative;
+	margin-left: -10px;
+	margin-right: -7.8px;
+	padding-left: 3em; 
+	padding-top: 1em;
+	padding-right: 2.5em;
+	font-family: Slick;
+	color: white;
+	border: solid 1px;
+	border-color: black;
+	border-top-color: black;
+	border-top-width: 2px;
+	background-color: black;
+	padding-bottom: 1em;
+}
+
+.footer text {
+	line-height:30px;
+}

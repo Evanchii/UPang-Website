@@ -1,0 +1,20 @@
+.up_nav {
+	background-color: black;
+	margin-left: -10px;
+	margin-right: -7.8px;
+	color: white;
+	font-family: Slick;
+	padding: 5px;
+	padding-bottom: 1em;
+}
+
+.up_nav img {
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 40px;
+	transition: width 0.5s ease-in-out;
+}
+
+.up_nav img:hover {
+	width: 50px;
+}

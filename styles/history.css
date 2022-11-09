@@ -1,0 +1,13 @@
+body {
+	background-image: url(../assets/background_history.jpg);
+	background-position: 0% 10%;
+	background-attachment: fixed;
+}
+
+td {
+	width: 1000px;
+}
+
+pre {
+	font-family: Slick;
+}

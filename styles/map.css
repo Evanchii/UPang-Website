@@ -1,0 +1,13 @@
+body {
+	background-image: url(../assets/map_background.jpg);
+	background-position: 0% 10%;
+	background-attachment: fixed;
+}
+
+
+.enter {
+	width: 10%;
+	position: absolute;
+	top: 32.5em;
+	left: 43.5em;
+}

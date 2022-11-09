@@ -1,0 +1,29 @@
+body {
+	background-color: #417832;
+	margin: 1em;
+}
+
+body img {
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { margin-top: -1em;opacity: 0; }
+    to   {opacity: 1; }
+}
+
+.text {
+	font-family: Verdana;
+	color: #000;
+	margin-left: 50px
+}
+
+.headfoot {
+	vertical-align: bottom;
+	display: block;
+	border: 1px solid #37562a;
+	margin-left: -1em;
+  margin-right: -1em;
+  border-width: 1.30px;
+  background-color: #37562a;
+}

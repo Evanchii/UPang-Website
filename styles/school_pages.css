@@ -1,0 +1,26 @@
+body {
+	background-position: 0% 25%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.nav_pen {
+	background-color: black;
+	margin-left: -10px;
+	margin-right: -7.8px;
+	color: white;
+	font-family: Slick;
+	padding: 5px;
+	padding-bottom: 1em;
+}
+
+.nav_pen img {
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 40px;
+	transition: width 0.5s ease-in-out;
+}
+
+.nav_pen img:hover {
+	width: 50px;
+}
